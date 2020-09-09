@@ -1,0 +1,28 @@
+An outlier is a datapoint that from from the noramal range of an element(that lies outside of the overall distribution of the dataset)
+
+Techniques 
+
+1.Z-score
+2.Inter Quantile range(IQR)
+
+Z-score
+
+z=Xi - Mean
+ __________
+ 
+ standard_deviation
+ 
+ if z>3 Then Xi datapoint as the outlier
+ 
+ 
+ Inter Quantile Range(IQR)
+ 
+ steps:
+ 
+ 1.Arrange the data in increasing order
+ 2.calculate first(q1) and third quantile(q3)
+ 3.Find interquantile range(q3-q1) Known as H-spread(step = H-spread * 1.5)
+ 4.Find lower bound q1 - step
+ 5.Find upper bound q3 + step
+ 
+ Anything that lies outside of lower and upper bound is an outlier

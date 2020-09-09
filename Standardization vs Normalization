@@ -1,0 +1,11 @@
+Normalization - scaling down your feature value between 0 to 1
+
+Xnorm = Xi-Xmin
+       _________
+       Xmax - Xmin
+       
+ Standardization - (Z score Normalization)
+ 
+ Z =  Xi-Xmean
+       _________
+       standard deviation

@@ -1,0 +1,7 @@
+# important concept of Data preprocessing and analysis
+
+to find two continous variables are increasing when other is increasing or decreasing(Direction of relationship)
+
+diadvantage - by how much y increases when x increases or how much y decreases when x increases
+
+solved by - Pearson correlation coefficient know as the strength of the relationship(between -1 and +1)
